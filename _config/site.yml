@@ -1,4 +1,24 @@
-name: Project Name
-title: Baked with Awestruct
-org: Organization
+name: Write__Adapt__
+title: WriteAdapt - Pour ceux qui aime le contenu
+org: Compagnie Mobile
+author: Jean Desbiens
+author_url: https://github.com/jeandesbiens
 base_url: ''
+ctx_path: ''
+
+# append
+interpolate: false 1
+haml:
+  :ugly: true
+
+# append
+asciidoctor:
+  :safe: safe
+  :attributes:
+    sitename: WriteAdapt
+    base_url: ''
+    ctx_path: ''
+    idprefix: ''
+    idseparator: '-'
+    sectanchors: ''
+    icons: font

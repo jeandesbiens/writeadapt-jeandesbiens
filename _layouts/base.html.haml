@@ -17,6 +17,7 @@
       %li.name
         %h1
           %a(href="#{site.base_url}/")=site.name
+          %h1 Welcome to #{Asciidoctor.render site.name, :doctype => :inline}!
       %li.toggle-topbar.menu-icon
         %a{:href=>'#'}<
           %span
@@ -25,9 +26,12 @@
         %li.divider
           %li
             %a{:href=>"#{site.base_url}/"} Home
+          %li
+            %a(href="#{site.ctx_path}/about.html") About
         -#%li.divider
         -#  %li
         -#    %a{:href=>"#{site.base_url}/blog"} Blog
+    
   .row
     .large-12.columns
       ~ content
