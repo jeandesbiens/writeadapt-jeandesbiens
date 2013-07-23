@@ -28,14 +28,14 @@ profiles:
     deploy:
       dummy:
   production:
-    base_url: http://{username}.github.io/writeadapt-{username}
-    ctx_path: /writeadapt-{username}
+    base_url: http://jeandesbiens.github.io/writeadapt-jeandesbiens
+    ctx_path: /writeadapt-jeandesbiens
     asciidoctor:
       :attributes:
-        base_url: http://{username}.github.io/writeadapt-{username}
-        ctx_path: /writeadapt-{username}
+        base_url: http://jeandesbiens.github.io/writeadapt-jeandesbiens
+        ctx_path: /writeadapt-jeandesbiens
         # imagesdir must be absolute to work around Atom feed bug
-        imagesdir: http://{username}.github.io/writeadapt-{username}/images
+        imagesdir: http://jeandesbiens.github.io/writeadapt-jeandesbiens/images
     deploy:
       host: github_pages
       branch: gh-pages
